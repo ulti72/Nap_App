@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00C853">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:src="@drawable/w3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RELEASE TIMER "
+            android:fontFamily="monospace"
+            android:textColor="#ffffff"
+            android:textSize="23sp"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:typeface="monospace"
+            android:layout_marginTop="16dp"
+            android:text="WHEN YOU FALL ASLEEP , YOUR FINGER RELEASES FROM THE TIMER AND THEN RINGTONE START PLAYING. "
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
